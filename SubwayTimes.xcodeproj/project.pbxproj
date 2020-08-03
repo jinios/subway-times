@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDB8B8B224D870E2004B0167 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8B8B124D870E2004B0167 /* AppDelegate.swift */; };
+		FDB8B8B424D870E2004B0167 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8B8B324D870E2004B0167 /* SceneDelegate.swift */; };
+		FDB8B8B624D870E2004B0167 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8B8B524D870E2004B0167 /* ContentView.swift */; };
+		FDB8B8B824D870E4004B0167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB8B8B724D870E4004B0167 /* Assets.xcassets */; };
+		FDB8B8BB24D870E4004B0167 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB8B8BA24D870E4004B0167 /* Preview Assets.xcassets */; };
+		FDB8B8BE24D870E4004B0167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB8B8BC24D870E4004B0167 /* LaunchScreen.storyboard */; };
+		FDB8B8C324D870E5004B0167 /* SubwayTimes WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FDB8B8C224D870E5004B0167 /* SubwayTimes WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FDB8B8C924D870E5004B0167 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB8B8C724D870E5004B0167 /* Interface.storyboard */; };
+		FDB8B8CB24D870E5004B0167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB8B8CA24D870E5004B0167 /* Assets.xcassets */; };
+		FDB8B8D224D870E5004B0167 /* SubwayTimes WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FDB8B8D124D870E5004B0167 /* SubwayTimes WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FDB8B8D724D870E5004B0167 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8B8D624D870E5004B0167 /* ContentView.swift */; };
+		FDB8B8D924D870E5004B0167 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8B8D824D870E5004B0167 /* HostingController.swift */; };
+		FDB8B8DB24D870E5004B0167 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8B8DA24D870E5004B0167 /* ExtensionDelegate.swift */; };
+		FDB8B8DD24D870E5004B0167 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8B8DC24D870E5004B0167 /* NotificationController.swift */; };
+		FDB8B8DF24D870E5004B0167 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8B8DE24D870E5004B0167 /* NotificationView.swift */; };
+		FDB8B8E124D870E5004B0167 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8B8E024D870E5004B0167 /* ComplicationController.swift */; };
+		FDB8B8E324D870E6004B0167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB8B8E224D870E6004B0167 /* Assets.xcassets */; };
+		FDB8B8E624D870E6004B0167 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB8B8E524D870E6004B0167 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDB8B8C424D870E5004B0167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDB8B8A624D870E2004B0167 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDB8B8C124D870E5004B0167;
+			remoteInfo = "SubwayTimes WatchKit App";
+		};
+		FDB8B8D324D870E5004B0167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDB8B8A624D870E2004B0167 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDB8B8D024D870E5004B0167;
+			remoteInfo = "SubwayTimes WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FDB8B8EE24D870E6004B0167 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FDB8B8D224D870E5004B0167 /* SubwayTimes WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB8B8F224D870E6004B0167 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FDB8B8C324D870E5004B0167 /* SubwayTimes WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FDB8B8AE24D870E2004B0167 /* SubwayTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubwayTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB8B8B124D870E2004B0167 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDB8B8B324D870E2004B0167 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FDB8B8B524D870E2004B0167 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDB8B8B724D870E4004B0167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDB8B8BA24D870E4004B0167 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDB8B8BD24D870E4004B0167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDB8B8BF24D870E4004B0167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB8B8C224D870E5004B0167 /* SubwayTimes WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SubwayTimes WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB8B8C824D870E5004B0167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FDB8B8CA24D870E5004B0167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDB8B8CC24D870E5004B0167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB8B8D124D870E5004B0167 /* SubwayTimes WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SubwayTimes WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB8B8D624D870E5004B0167 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDB8B8D824D870E5004B0167 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		FDB8B8DA24D870E5004B0167 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		FDB8B8DC24D870E5004B0167 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		FDB8B8DE24D870E5004B0167 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		FDB8B8E024D870E5004B0167 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		FDB8B8E224D870E6004B0167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDB8B8E524D870E6004B0167 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDB8B8E724D870E6004B0167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB8B8E824D870E6004B0167 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDB8B8AB24D870E2004B0167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB8B8CE24D870E5004B0167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDB8B8A524D870E2004B0167 = {
+			isa = PBXGroup;
+			children = (
+				FDB8B8B024D870E2004B0167 /* SubwayTimes */,
+				FDB8B8C624D870E5004B0167 /* SubwayTimes WatchKit App */,
+				FDB8B8D524D870E5004B0167 /* SubwayTimes WatchKit Extension */,
+				FDB8B8AF24D870E2004B0167 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDB8B8AF24D870E2004B0167 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDB8B8AE24D870E2004B0167 /* SubwayTimes.app */,
+				FDB8B8C224D870E5004B0167 /* SubwayTimes WatchKit App.app */,
+				FDB8B8D124D870E5004B0167 /* SubwayTimes WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDB8B8B024D870E2004B0167 /* SubwayTimes */ = {
+			isa = PBXGroup;
+			children = (
+				FDB8B8B124D870E2004B0167 /* AppDelegate.swift */,
+				FDB8B8B324D870E2004B0167 /* SceneDelegate.swift */,
+				FDB8B8B524D870E2004B0167 /* ContentView.swift */,
+				FDB8B8B724D870E4004B0167 /* Assets.xcassets */,
+				FDB8B8BC24D870E4004B0167 /* LaunchScreen.storyboard */,
+				FDB8B8BF24D870E4004B0167 /* Info.plist */,
+				FDB8B8B924D870E4004B0167 /* Preview Content */,
+			);
+			path = SubwayTimes;
+			sourceTree = "<group>";
+		};
+		FDB8B8B924D870E4004B0167 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDB8B8BA24D870E4004B0167 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDB8B8C624D870E5004B0167 /* SubwayTimes WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FDB8B8C724D870E5004B0167 /* Interface.storyboard */,
+				FDB8B8CA24D870E5004B0167 /* Assets.xcassets */,
+				FDB8B8CC24D870E5004B0167 /* Info.plist */,
+			);
+			path = "SubwayTimes WatchKit App";
+			sourceTree = "<group>";
+		};
+		FDB8B8D524D870E5004B0167 /* SubwayTimes WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FDB8B8D624D870E5004B0167 /* ContentView.swift */,
+				FDB8B8D824D870E5004B0167 /* HostingController.swift */,
+				FDB8B8DA24D870E5004B0167 /* ExtensionDelegate.swift */,
+				FDB8B8DC24D870E5004B0167 /* NotificationController.swift */,
+				FDB8B8DE24D870E5004B0167 /* NotificationView.swift */,
+				FDB8B8E024D870E5004B0167 /* ComplicationController.swift */,
+				FDB8B8E224D870E6004B0167 /* Assets.xcassets */,
+				FDB8B8E724D870E6004B0167 /* Info.plist */,
+				FDB8B8E824D870E6004B0167 /* PushNotificationPayload.apns */,
+				FDB8B8E424D870E6004B0167 /* Preview Content */,
+			);
+			path = "SubwayTimes WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FDB8B8E424D870E6004B0167 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDB8B8E524D870E6004B0167 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDB8B8AD24D870E2004B0167 /* SubwayTimes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB8B8F324D870E6004B0167 /* Build configuration list for PBXNativeTarget "SubwayTimes" */;
+			buildPhases = (
+				FDB8B8AA24D870E2004B0167 /* Sources */,
+				FDB8B8AB24D870E2004B0167 /* Frameworks */,
+				FDB8B8AC24D870E2004B0167 /* Resources */,
+				FDB8B8F224D870E6004B0167 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDB8B8C524D870E5004B0167 /* PBXTargetDependency */,
+			);
+			name = SubwayTimes;
+			productName = SubwayTimes;
+			productReference = FDB8B8AE24D870E2004B0167 /* SubwayTimes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDB8B8C124D870E5004B0167 /* SubwayTimes WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB8B8EF24D870E6004B0167 /* Build configuration list for PBXNativeTarget "SubwayTimes WatchKit App" */;
+			buildPhases = (
+				FDB8B8C024D870E5004B0167 /* Resources */,
+				FDB8B8EE24D870E6004B0167 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDB8B8D424D870E5004B0167 /* PBXTargetDependency */,
+			);
+			name = "SubwayTimes WatchKit App";
+			productName = "SubwayTimes WatchKit App";
+			productReference = FDB8B8C224D870E5004B0167 /* SubwayTimes WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		FDB8B8D024D870E5004B0167 /* SubwayTimes WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB8B8EB24D870E6004B0167 /* Build configuration list for PBXNativeTarget "SubwayTimes WatchKit Extension" */;
+			buildPhases = (
+				FDB8B8CD24D870E5004B0167 /* Sources */,
+				FDB8B8CE24D870E5004B0167 /* Frameworks */,
+				FDB8B8CF24D870E5004B0167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SubwayTimes WatchKit Extension";
+			productName = "SubwayTimes WatchKit Extension";
+			productReference = FDB8B8D124D870E5004B0167 /* SubwayTimes WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDB8B8A624D870E2004B0167 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = JINiOS;
+				TargetAttributes = {
+					FDB8B8AD24D870E2004B0167 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FDB8B8C124D870E5004B0167 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FDB8B8D024D870E5004B0167 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FDB8B8A924D870E2004B0167 /* Build configuration list for PBXProject "SubwayTimes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDB8B8A524D870E2004B0167;
+			productRefGroup = FDB8B8AF24D870E2004B0167 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDB8B8AD24D870E2004B0167 /* SubwayTimes */,
+				FDB8B8C124D870E5004B0167 /* SubwayTimes WatchKit App */,
+				FDB8B8D024D870E5004B0167 /* SubwayTimes WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDB8B8AC24D870E2004B0167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB8B8BE24D870E4004B0167 /* LaunchScreen.storyboard in Resources */,
+				FDB8B8BB24D870E4004B0167 /* Preview Assets.xcassets in Resources */,
+				FDB8B8B824D870E4004B0167 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB8B8C024D870E5004B0167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB8B8CB24D870E5004B0167 /* Assets.xcassets in Resources */,
+				FDB8B8C924D870E5004B0167 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB8B8CF24D870E5004B0167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB8B8E624D870E6004B0167 /* Preview Assets.xcassets in Resources */,
+				FDB8B8E324D870E6004B0167 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDB8B8AA24D870E2004B0167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB8B8B224D870E2004B0167 /* AppDelegate.swift in Sources */,
+				FDB8B8B424D870E2004B0167 /* SceneDelegate.swift in Sources */,
+				FDB8B8B624D870E2004B0167 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB8B8CD24D870E5004B0167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB8B8D924D870E5004B0167 /* HostingController.swift in Sources */,
+				FDB8B8D724D870E5004B0167 /* ContentView.swift in Sources */,
+				FDB8B8DD24D870E5004B0167 /* NotificationController.swift in Sources */,
+				FDB8B8DB24D870E5004B0167 /* ExtensionDelegate.swift in Sources */,
+				FDB8B8DF24D870E5004B0167 /* NotificationView.swift in Sources */,
+				FDB8B8E124D870E5004B0167 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDB8B8C524D870E5004B0167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDB8B8C124D870E5004B0167 /* SubwayTimes WatchKit App */;
+			targetProxy = FDB8B8C424D870E5004B0167 /* PBXContainerItemProxy */;
+		};
+		FDB8B8D424D870E5004B0167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDB8B8D024D870E5004B0167 /* SubwayTimes WatchKit Extension */;
+			targetProxy = FDB8B8D324D870E5004B0167 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDB8B8BC24D870E4004B0167 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB8B8BD24D870E4004B0167 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FDB8B8C724D870E5004B0167 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB8B8C824D870E5004B0167 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDB8B8E924D870E6004B0167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDB8B8EA24D870E6004B0167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDB8B8EC24D870E6004B0167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SubwayTimes WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 964726ULPQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SubwayTimes WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinios.SubwayTimes.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		FDB8B8ED24D870E6004B0167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SubwayTimes WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 964726ULPQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SubwayTimes WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinios.SubwayTimes.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		FDB8B8F024D870E6004B0167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 964726ULPQ;
+				IBSC_MODULE = SubwayTimes_WatchKit_Extension;
+				INFOPLIST_FILE = "SubwayTimes WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinios.SubwayTimes.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		FDB8B8F124D870E6004B0167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 964726ULPQ;
+				IBSC_MODULE = SubwayTimes_WatchKit_Extension;
+				INFOPLIST_FILE = "SubwayTimes WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinios.SubwayTimes.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		FDB8B8F424D870E6004B0167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SubwayTimes/Preview Content\"";
+				DEVELOPMENT_TEAM = 964726ULPQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SubwayTimes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinios.SubwayTimes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDB8B8F524D870E6004B0167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SubwayTimes/Preview Content\"";
+				DEVELOPMENT_TEAM = 964726ULPQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SubwayTimes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinios.SubwayTimes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDB8B8A924D870E2004B0167 /* Build configuration list for PBXProject "SubwayTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB8B8E924D870E6004B0167 /* Debug */,
+				FDB8B8EA24D870E6004B0167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB8B8EB24D870E6004B0167 /* Build configuration list for PBXNativeTarget "SubwayTimes WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB8B8EC24D870E6004B0167 /* Debug */,
+				FDB8B8ED24D870E6004B0167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB8B8EF24D870E6004B0167 /* Build configuration list for PBXNativeTarget "SubwayTimes WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB8B8F024D870E6004B0167 /* Debug */,
+				FDB8B8F124D870E6004B0167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB8B8F324D870E6004B0167 /* Build configuration list for PBXNativeTarget "SubwayTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB8B8F424D870E6004B0167 /* Debug */,
+				FDB8B8F524D870E6004B0167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDB8B8A624D870E2004B0167 /* Project object */;
+}
